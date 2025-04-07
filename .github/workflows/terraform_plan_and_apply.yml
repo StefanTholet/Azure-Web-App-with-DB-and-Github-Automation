@@ -72,5 +72,5 @@ jobs:
         name: terraform-plan
     
     - name: Apply the terraform plan
-      uses: terraform apply -auto-approve tfplan
+      run: terraform apply -auto-approve tfplan
 
